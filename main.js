@@ -105,7 +105,11 @@ window.addEventListener('scroll', function () {
       section.offsetTop <= scrollPosition &&
       section.offsetTop + section.offsetHeight > scrollPosition
     ) {
-      history.replaceState(null, null, '#' + section.getAttribute('id'));
+      if (section.getAttribute('id') === 'home') {
+        history.replaceState(null, null, '');
+      } else {
+        history.replaceState(null, null, '#' + section.getAttribute('id'));
+      }
     }
   });
 });
