@@ -95,3 +95,17 @@ function scrolltoTopfunction() {
     },
     !1
   );
+window.addEventListener('scroll', function () {
+  var sections = document.querySelectorAll('section');
+  var scrollPosition =
+    document.documentElement.scrollTop || document.body.scrollTop;
+
+  sections.forEach(function (section) {
+    if (
+      section.offsetTop <= scrollPosition &&
+      section.offsetTop + section.offsetHeight > scrollPosition
+    ) {
+      history.replaceState(null, null, '#' + section.getAttribute('id'));
+    }
+  });
+});
