@@ -7,7 +7,7 @@
 [![Updated](https://img.shields.io/badge/Updated-Patrícia%20Costa%20da%20Cruz-blue.svg)](https://www.instagram.com/its_.me._vinod?igshid=YmMyMTA2MsY%3D)
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-27%20Aug%202024-yellow.svg)](https://github.com/patriciacostadacruz/patriciacostadacruz.github.io)
 
-[PORTFOLIO SCREENSHOT TO BE ADDED]
+![Portfolio image](src/png/app-screenshot.png)
 
 # Sections 📚
 
