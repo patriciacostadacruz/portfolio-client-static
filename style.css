@@ -217,7 +217,7 @@ html {
   position: relative;
   width: 40px;
   height: 40px;
-  background-image: url("src/png/crescent-moon\\(1\).png");
+  background-image: url("src/png//crescent-moon\ \(1\).png");
   background-size: 50%;
   transition-duration: 0.5s;
   cursor: pointer;
@@ -505,6 +505,10 @@ noscript {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
 .text-content {
   display: flex;
@@ -1367,6 +1371,9 @@ footer {
   .skills-section,
   .text-content {
     width: 80%;
+  }
+  .text-content article {
+    display: block;
   }
   .about-section {
     width: 80%;
