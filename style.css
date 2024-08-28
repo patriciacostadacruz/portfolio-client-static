@@ -1058,7 +1058,7 @@ footer {
 }
 .experience-box {
   width: 100%;
-  height: 400px;
+  height: 600px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1548,12 +1548,12 @@ footer {
   }
   .experience-box {
     flex-direction: column;
-    height: 1000px;
+    height: 1200px;
   }
   .image-div,
   .info-div {
     width: 100%;
-    height: 50%;
+    height: 70%;
   }
   .image-div {
     padding: 0 0 0 80px;
@@ -1639,7 +1639,7 @@ footer {
     justify-content: flex-start;
   }
   .experience-box {
-    height: 550px;
+    height: 750px;
   }
   .info-div {
     height: 60%;
