@@ -1,3 +1,4 @@
+var loader = document.getElementById('preloader');
 function settingtoggle() {
   document
     .getElementById('setting-container')
