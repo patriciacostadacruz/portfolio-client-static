@@ -1368,9 +1368,6 @@ footer {
   .text-content {
     width: 80%;
   }
-  .text-content article {
-    display: block;
-  }
   .about-section {
     width: 80%;
     display: flex;
