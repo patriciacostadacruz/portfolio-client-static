@@ -2,16 +2,6 @@
 <html lang="en">
 
 <head>
-  <!-- <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-YMWDE0VTD3");
-  </script> -->
-
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,10 +39,6 @@
     href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
 
 <body class="body">
-  <!-- TODO CHECK THAT -->
-  <audio loop="" id="audioPlayer" style="display: none">
-    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
-  </audio>
   <div id="preloader"></div>
   <noscript>Allow Javascript</noscript>
 
@@ -61,11 +47,10 @@
     <div class="cursor-outer" id="cursor-outer"></div>
 
     <div class="navbar" id="navbar">
-      <div class="hey">Hey!</div>
+      <div class="hey">Hi there!</div>
       <div class="logo" tabindex="0" aria-label="Patrícia Costa da Cruz logo">
         <div class="logo-top">
-          <!-- TODO ADD MY IMAGE BELOW -->
-          <img src="src/png/nav-avatar-pat.png" alt="animation-head" id="nav-avatar"/>
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
         </div>
       </div>
       <div class="navbar-tabs" id="navbar-tabs">
@@ -130,7 +115,7 @@
             &#60;/Skills&#62;
           </a>
         </li>
-        <li id="experiences-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+        <li id="experiences-mobile-tab" class="mobile-navbar-tabs-li experiences" onclick="hidemenubyli()">
           <a href="#experiences" tabindex="0" aria-label="experiences menu button">
             &#60;/Experiences&#62;
           </a>
@@ -246,12 +231,6 @@
               <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
                 aria-label="switch appearance"></label>
             </div>
-
-            <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
-              <input type="checkbox" id="switchforsound" onclick="playpause()" />
-              <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
-                class="needtobeinvert"></label>
-            </div>
           </div>
           <!-- setting div ends -->
         </div>
@@ -283,21 +262,19 @@
               My main focus these days is applying best practices & coding as much as I can, I like to work on side projects which are different from my day-to-day job, and I really enjoy getting knowledge from more knowledgeable people around me.
             </p>
             <!-- Resume button -->
-      <button class="resume-btn" id="resume-btn" onclick="openURL()">
-        <div class="sign">
-          <svg viewBox="0 0 640 512">
-            <path
-              d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
-          </svg>
-        </div>
-
-        <div class="text">Resume</div>
-      </button>
+            <button class="resume-btn" id="resume-btn" onclick="openURL()">
+              <div class="sign">
+                <svg viewBox="0 0 640 512">
+                  <path
+                    d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                </svg>
+              </div>
+              <div class="text">Resume</div>
+            </button>
           </div>
 
-          <!-- TODO ADD MY IMAGE HERE -->
           <div class="dp" data-aos="fade-up">
-            <img src="src/webp/patricia (2).webp" alt="Patrícia Costa da Cruz" tabindex="0" aria-label="image of patricia" />
+            <img src="src/png/selfie.png" alt="Patrícia Costa da Cruz" tabindex="0" aria-label="image of patricia" />
           </div>
         </div>
       </div>
@@ -315,104 +292,104 @@
 
         <div class="frontend-dev-section">
           <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
-            aria-label="As a fullstack developer, these are the skills i have">
-            Tech Stack
+            aria-label="As a fullstack developer, these are the skills I have">
+            Tech stack
           </h3>
+
           <ul class="tech-stack-wrapper">
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/htmllogo.png" alt="Html skill" class="tech-stack-logo" />
+              <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="Html skill" class="tech-stack-logo" />
               <span class="tooltip">HTML</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/csslogo.png" alt="css skill" class="tech-stack-logo" />
+              <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain.svg" alt="css skill" class="tech-stack-logo" />
               <span class="tooltip">CSS</span>
             </li>
 
-            <!-- TODO ADD Tailwind LOGO -->
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/csslogo.png" alt="tcss skill" class="tech-stack-logo" />
-              <span class="tooltip">TailwindCSS</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="js skill" class="tech-stack-logo" />
+              <span class="tooltip">JavaScript</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="js skill" class="tech-stack-logo" />
-              <span class="tooltip">JS</span>
-            </li>
-
-            <!-- TODO ADD TS LOGO -->
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="ts skill" class="tech-stack-logo" />
-              <span class="tooltip">TS</span>
-            </li>
-
-            <!-- TODO ADD PYTHON LOGO -->
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="py skill" class="tech-stack-logo" />
-              <span class="tooltip">PYTHON</span>
-            </li>
-
-            <!-- TODO ADD GOLANG LOGO -->
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="go skill" class="tech-stack-logo" />
-              <span class="tooltip">GOLANG</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" alt="ts skill" class="tech-stack-logo" />
+              <span class="tooltip">TypeScript</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/reactlogo.png" alt="react skill" class="tech-stack-logo" />
-              <span class="tooltip">REACT</span>
-            </li>
-
-            <!-- TODO ADD NODE LOGO -->
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="node skill" class="tech-stack-logo" />
-              <span class="tooltip">NODE.JS</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="py skill" class="tech-stack-logo" />
+              <span class="tooltip">Python</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/reactlogo.png" alt="react skill" class="tech-stack-logo" />
-              <span class="tooltip">NEXT.JS</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/go/go-original-wordmark.svg" alt="go skill" class="tech-stack-logo" />
+              <span class="tooltip">Golang</span>
             </li>
 
-            <!-- TODO ADD NEST LOGO -->
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="nest skill" class="tech-stack-logo" />
-              <span class="tooltip">NEST.JS</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="react skill" class="tech-stack-logo" />
+              <span class="tooltip">React.JS</span>
             </li>
 
-            <!-- TODO ADD POSTMAN LOGO -->
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="postman skill" class="tech-stack-logo" />
-              <span class="tooltip">POSTMAN</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-line.svg" alt="next skill" class="tech-stack-logo" />
+              <span class="tooltip">Next.JS</span>
             </li>
 
-            <!-- TODO ADD POSTGRE LOGO -->
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="psql skill" class="tech-stack-logo" />
-              <span class="tooltip">POSTGRESQL</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" alt="node skill" class="tech-stack-logo" />
+              <span class="tooltip">Node.JS</span>
             </li>
 
-            <!-- TODO ADD AWS LOGO -->
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="aws skill" class="tech-stack-logo" />
+              <img src="https://github.com/devicons/devicon/blob/master/icons/nestjs/nestjs-original.svg" alt="nest skill" class="tech-stack-logo" />
+              <span class="tooltip">Nest.JS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-plain-wordmark.svg" alt="psql skill" class="tech-stack-logo" />
+              <span class="tooltip">PostgreSQL</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongo skill" class="tech-stack-logo" />
+              <span class="tooltip">MongoDB</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://www.svgrepo.com/download/354202/postman-icon.svg" alt="postman skill" class="tech-stack-logo" />
+              <span class="tooltip">Postman</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" alt="github skill" class="tech-stack-logo needtobeinvert" />
+              <span class="tooltip">GitHub</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" alt="vscode skill" class="tech-stack-logo needtobeinvert" />
+              <span class="tooltip">VSCode</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="aws skill" class="tech-stack-logo" />
               <span class="tooltip">AWS</span>
             </li>
 
-            <!-- TODO ADD JEST LOGO -->
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="jest skill" class="tech-stack-logo" />
-              <span class="tooltip">JEST</span>
-            </li>
-
-            <!-- TODO ADD DOCKER LOGO -->
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="docker skill" class="tech-stack-logo" />
-              <span class="tooltip">DOCKER</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" alt="firebase skill" class="tech-stack-logo" />
+              <span class="tooltip">Firebase</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/githublogo.png" alt="github skill" class="tech-stack-logo needtobeinvert" />
-              <span class="tooltip">GITHUB</span>
+              <img src="https://github.com/devicons/devicon/blob/master/icons/jest/jest-plain.svg" alt="jest skill" class="tech-stack-logo" />
+              <span class="tooltip">Jest</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg" alt="docker skill" class="tech-stack-logo" />
+              <span class="tooltip">Docker</span>
             </li>
 
           </ul>
@@ -431,15 +408,13 @@
         <div class="experience-boxes-div">
           <div data-aos="fade-up" class="experience-box-wrapper">
             <div class="experience-box experience-box2" id="experience-box2">
-              <p class="ExperienceHeading">Section under construction...</p>
-              <!-- <div class="info-div"> -->
-                <!-- <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforExperience" />
-                <article class="ExperienceHeading">Pexelicons</article>
+              <div class="info-div">
+                <!-- <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforExperience" /> -->
+                <article class="ExperienceHeading">Under construction...</article>
                 <p class="ExperienceDescription">
-                  Pexelicons: A world of personalized file folder icons to
-                  transform your PC into a reflection of your style.
+                  Experiences to be displayed soon. Stay tuned!
                 </p>
-                <div class="experience-buttons">
+                <!-- <div class="experience-buttons">
                   <a href="https://github.com/patriciajangid07/Pexelicons" target="_blank" class="github-redirect"
                     aria-label="Visit Pexelicons on GitHub">
                     <img src="src/svg/github.svg" alt="github redirect button" />
@@ -453,8 +428,8 @@
                     </svg>
                   </a>
                 </div> -->
-              <!-- </div>
-              <div class="image-div">
+              </div>
+              <!-- <div class="image-div">
                 <img src="src/webp/Group 76.webp" alt="Pexelicon website preview image" />
               </div> -->
             </div>
@@ -504,8 +479,7 @@
           </div>
         </div>
         <div class="footer-avatar-container">
-          <!-- TODO ADD MY IMAGE HERE -->
-          <img src="src/png/footer-avatar-patricia.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar"/>
+          <img src="src/png/bye.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar"/>
           <div class="footer-avatar-face">
             <div class="footer-avatar-eye footer-left-eye">
               <div class="footer-pupil"></div>
@@ -517,12 +491,7 @@
         </div>
         <div class="footer-bottom">
           <article>
-            Design & Built by Vinod Jangid
-            &#169; 2023
-          </article>
-          <article>
-            Updated & Improved by Patrícia Costa da Cruz
-            &#169; 2024
+            Designed & Built by Vinod Jangid &#169; 2023 ||| Updated by Patrícia Costa da Cruz &#169; 2024
           </article>
         </div>
       </div>
@@ -539,8 +508,7 @@
 
   <script>
     function openURL() {
-      // TODO ADD MY RESUMEE HERE
-      var url = "src/pdf/Patrícia's Resume.pdf";
+      var url = "src/pdf/Patrícia Costa da Cruz CV.pdf";
 
       window.open(url, "_blank");
     }
@@ -581,8 +549,6 @@
       });
     });
   </script>
-  <!-- TODO delete if works wihtout it -->
-  <!-- <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="patricia.costadacruz" data-description="Support me on Buy me a coffee!" data-message="" data-color="#BD5FFF" data-position="left" data-x_margin="18" data-y_margin="18"></script> -->
 </body>
 
 </html>
