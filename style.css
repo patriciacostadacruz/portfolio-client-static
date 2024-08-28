@@ -1058,7 +1058,7 @@ footer {
 }
 .experience-box {
   width: 100%;
-  height: 800px;
+  height: 650px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1377,7 +1377,7 @@ footer {
     justify-content: center;
   }
   .experience-box {
-    height: 900px;
+    height: 700px;
   }
   .logo:hover {
     transform: translateY(200px);
@@ -1551,7 +1551,7 @@ footer {
   }
   .experience-box {
     flex-direction: column;
-    height: 1200px;
+    height: 1050px;
   }
   .image-div,
   .info-div {
@@ -1642,7 +1642,7 @@ footer {
     justify-content: flex-start;
   }
   .experience-box {
-    height: 850px;
+    height: 750px;
   }
   .info-div {
     height: 60%;
