@@ -1359,6 +1359,9 @@ footer {
   html {
     font-size: 60%;
   }
+  .experience-box {
+    height: 800px;
+  }
 }
 @media screen and (max-width: 1200px) {
   html {
