@@ -1289,7 +1289,7 @@ footer {
 }
 .fa-copyright,
 .footer-bottom article {
-  font-size: 14px;
+  font-size: 12px;
   color: #b0b0b0;
 }
 .logos {
@@ -1343,7 +1343,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
+  text-align: center;
+  height: 60px;
   z-index: 3;
 }
 .tonechange {
@@ -1690,7 +1691,7 @@ footer {
     font-size: 2rem;
   }
   .footer-bottom article {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .logos {
     gap: 20px;
