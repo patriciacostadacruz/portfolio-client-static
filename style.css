@@ -1571,6 +1571,10 @@ footer {
   .image-div {
     padding: 0 0 0 80px;
   }
+  .experience-tech-stack-box {
+    width: 25px;
+    height: 25px;
+  }
 }
 @media screen and (max-width: 768px) {
   html {
@@ -1672,10 +1676,6 @@ footer {
   .tech-stack-box {
     width: 100%;
     height: calc(76vw / 2);
-  }
-  .experience-tech-stack-box {
-    width: 25px;
-    height: 25px;
   }
 }
 @media screen and (max-width: 430px) {
