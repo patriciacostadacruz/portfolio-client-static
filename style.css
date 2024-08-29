@@ -1365,7 +1365,8 @@ footer {
   html {
     font-size: 60%;
   }
-  .experience-box {
+  .experience-box,
+  .project-box {
     height: 800px;
   }
 }
@@ -1386,7 +1387,8 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .experience-box {
+  .experience-box,
+  .project-box {
     height: 700px;
   }
   .logo:hover {
@@ -1656,6 +1658,7 @@ footer {
     justify-content: flex-start;
   }
   .experience-box {
+    flex-direction: column;
     height: 800px;
   }
   .info-div {
