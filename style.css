@@ -967,9 +967,10 @@ noscript {
 .experience-tech-stack-wrapper {
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   gap: 5px;
   margin-top: 10px;
+  list-style-type: none;
 }
 .tech-stack-box,
 .tooltip {
