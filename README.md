@@ -1,5 +1,5 @@
-# <a href="https://patriciacostadacruz.com/" target="_blank">Portfolio</a>
-<p align="justify">This website displays my skills, story, work experience, and contact information.</p>
+# [Portfolio](https://patriciacostadacruz.com/)
+This website displays my skills, story, work experience, and contact information.
 
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/patriciacostadacruz/patriciacostadacruz.github.io)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://vinodjangid07.github.io/)
