@@ -1669,18 +1669,13 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-  .experience-tech-stack-wrapper {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 5px;
-  }
   .tech-stack-box {
     width: 100%;
     height: calc(76vw / 2);
   }
   .experience-tech-stack-box {
-    width: 100%;
-    height: calc(30vw / 2);
+    width: 25px;
+    height: 25px;
   }
 }
 @media screen and (max-width: 430px) {
