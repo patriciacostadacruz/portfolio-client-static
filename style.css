@@ -1561,7 +1561,8 @@ footer {
   .experiences-section-div {
     width: 80%;
   }
-  .experience-box {
+  .experience-box,
+  .project-box {
     flex-direction: column;
     height: 1050px;
   }
@@ -1657,7 +1658,8 @@ footer {
   .text-content {
     justify-content: flex-start;
   }
-  .experience-box {
+  .experience-box,
+  .project-box {
     flex-direction: column;
     height: 800px;
   }
