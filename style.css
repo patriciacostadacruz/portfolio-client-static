@@ -37,6 +37,7 @@ body {
 .logo,
 .navbar,
 .experience-box,
+.project-box,
 .resume-btn,
 footer {
   overflow: hidden;
@@ -843,7 +844,8 @@ noscript {
 }
 .about-section,
 .experiences-section-div,
-.skills-section {
+.skills-section,
+.projects-section {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -978,6 +980,7 @@ noscript {
   -webkit-text-fill-color: transparent;
 }
 .experience-box,
+.project-box,
 .tech-stack-box {
   background-image: linear-gradient(
     to bottom right,
@@ -1035,17 +1038,20 @@ noscript {
 .cta span,
 .cta svg,
 .experience-box,
+.project-box,
 footer {
   position: relative;
 }
-.experiences-section-container {
+.experiences-section-container,
+.projects-section-container {
   padding: 150px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-.experience-boxes-div {
+.experience-boxes-div,
+.projects-section {
   width: 100%;
   height: fit-content;
   display: flex;
@@ -1059,15 +1065,21 @@ footer {
 .experience-box-wrapper {
   width: 100%;
 }
-.experience-box {
+.experience-box,
+.project-box {
   width: 100%;
-  height: 650px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   transition-duration: 0.3s;
   border-radius: 30px;
   border: 1px solid var(--tech-stack-box-border-color);
+}
+.experience-box {
+  height: 650px;
+}
+.project-box {
+  height: 400px;
 }
 .info-div {
   width: 50%;
@@ -1096,12 +1108,14 @@ footer {
   height: 100%;
   border-top-left-radius: 30px;
 }
-.ExperienceHeading {
+.ExperienceHeading,
+.ProjectHeading {
   color: var(--color-white);
   font-size: 3.4rem;
   font-weight: 700;
 }
-.ExperienceDescription {
+.ExperienceDescription,
+.ProjectDescription {
   color: gray;
   font-size: 1.7rem;
   font-weight: 400;
