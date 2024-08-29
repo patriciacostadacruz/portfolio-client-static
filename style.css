@@ -623,7 +623,7 @@ noscript {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-color: #03e6ff;
+  background-color: #ffb803;
   -webkit-animation: 0.9s both jello-vertical;
   animation: 0.9s both jello-vertical;
 }
@@ -845,8 +845,8 @@ noscript {
 .about-section,
 .experiences-section-div,
 .skills-section,
-.projects-section {
-  width: 60%;
+.projects-section-div {
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -981,7 +981,8 @@ noscript {
 }
 .experience-box,
 .project-box,
-.tech-stack-box {
+.tech-stack-box,
+.experience-tech-stack-box {
   background-image: linear-gradient(
     to bottom right,
     var(--tech-stack-box-first-color),
@@ -995,22 +996,34 @@ noscript {
   margin-top: 50px;
 }
 .tech-stack-box,
-.tooltip {
+.tooltip,
+.experience-tech-stack-box {
   align-items: center;
   display: flex;
+}
+.tech-stack-box,
+.experience-tech-stack-box {
+  justify-content: center;
+  border: 1px solid var(--tech-stack-box-border-color);
+  position: relative;
+  border-radius: 30px;
 }
 .tech-stack-box {
   width: 160px;
   height: 160px;
-  justify-content: center;
-  border-radius: 30px;
-  border: 1px solid var(--tech-stack-box-border-color);
-  position: relative;
+}
+.experience-tech-stack-box {
+  width: 60px;
+  height: 60px;
 }
 .tech-stack-box img {
   width: 80%;
 }
-.tech-stack-box:hover .tooltip {
+.experience-tech-stack-box img {
+  width: 90%;
+}
+.tech-stack-box:hover .tooltip,
+.experience-tech-stack-box.tooltip {
   opacity: 1;
   transition-duration: 0.3s;
 }
@@ -1051,7 +1064,7 @@ footer {
   width: 100%;
 }
 .experience-boxes-div,
-.projects-section {
+.project-boxes-div {
   width: 100%;
   height: fit-content;
   display: flex;
@@ -1062,7 +1075,8 @@ footer {
   padding: 50px;
 }
 .cta:hover:before,
-.experience-box-wrapper {
+.experience-box-wrapper,
+.project-box-wrapper {
   width: 100%;
 }
 .experience-box,
@@ -1076,10 +1090,10 @@ footer {
   border: 1px solid var(--tech-stack-box-border-color);
 }
 .experience-box {
-  height: 650px;
+  height: 600px;
 }
 .project-box {
-  height: 400px;
+  height: 500px;
 }
 .info-div {
   width: 50%;
@@ -1386,8 +1400,9 @@ footer {
   }
   .experiences-section-div,
   .skills-section,
-  .text-content {
-    width: 80%;
+  .text-content,
+  .projects-section-div {
+    width: 90%;
   }
   .about-section {
     width: 80%;
@@ -1682,6 +1697,10 @@ footer {
   .tech-stack-box {
     width: 100%;
     height: calc(76vw / 2);
+  }
+  .experience-tech-stack-box {
+    width: 100%;
+    height: calc(50vw / 2);
   }
 }
 @media screen and (max-width: 430px) {

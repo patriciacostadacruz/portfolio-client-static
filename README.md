@@ -4,7 +4,7 @@ This website displays my skills, story, work experience, and contact information
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/patriciacostadacruz/patriciacostadacruz.github.io)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://patriciacostadacruz.github.io/)
 [![Author](https://img.shields.io/badge/Author-Vinod%20Jangid-purple.svg)](https://www.instagram.com/its_.me._vinod?igshid=YmMyMTA2MsY%3D)
-[![Updated](https://img.shields.io/badge/Updated-Patrícia%20Costa%20da%20Cruz-blue.svg)]
+![Updated](https://img.shields.io/badge/Updated-Patrícia%20Costa%20da%20Cruz-blue.svg)
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-27%20Aug%202024-yellow.svg)](https://github.com/patriciacostadacruz/patriciacostadacruz.github.io)
 
 ![Portfolio image](src/png/app-screenshot.png)
