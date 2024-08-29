@@ -1677,6 +1677,10 @@ footer {
     width: 100%;
     height: calc(76vw / 2);
   }
+  .experience-tech-stack-box {
+    width: 20px;
+    height: 20px;
+  }
 }
 @media screen and (max-width: 430px) {
   html {
