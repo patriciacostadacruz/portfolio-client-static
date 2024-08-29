@@ -931,7 +931,8 @@ noscript {
   justify-content: center;
 }
 .language-speak,
-.tech-stack-wrapper {
+.tech-stack-wrapper,
+.experience-tech-stack-wrapper {
   width: 100%;
   display: flex;
   align-items: center;
@@ -994,6 +995,13 @@ noscript {
   flex-wrap: wrap;
   gap: 50px;
   margin-top: 50px;
+}
+.experience-tech-stack-wrapper {
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 10px;
 }
 .tech-stack-box,
 .tooltip,
@@ -1693,6 +1701,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  .experience-tech-stack-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
   }
   .tech-stack-box {
     width: 100%;
