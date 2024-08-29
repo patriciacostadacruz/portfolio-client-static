@@ -14,8 +14,8 @@
 ✔️ Introduction\
 ✔️ About me\
 ✔️ Skills\
-✔️ Experience\
-✔️ Contact
+✔️ Experiences\
+✔️ Projects
 
 ## Tools Used 🛠️
 * [<b>GitHub</b>](https://github.com/) - To host my static website (HTML, CSS, JS).
