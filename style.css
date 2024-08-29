@@ -1627,6 +1627,10 @@ footer {
   .experience-boxes-div {
     padding: 40px 0;
   }
+  .experience-box,
+  .project-box {
+    width: 95%;
+  }
 }
 @media screen and (max-width: 500px) {
   html {
@@ -1660,7 +1664,6 @@ footer {
   }
   .experience-box,
   .project-box {
-    flex-direction: column;
     height: 800px;
   }
   .info-div {
