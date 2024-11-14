@@ -162,7 +162,7 @@ html {
   --color-ddd-color: rgb(31, 31, 31);
   --color-navbarBorder-dark: #d1d6eb;
   --static-heading-gradient-blue: #0f7878;
-  --static-heading-gradient-orange: #ffa64d;;
+  --static-heading-gradient-orange: #ffa64d;
   --color-shadowDark: #e2ddd7;
   --tech-stack-box-first-color: #e7e2db;
   --tech-stack-box-second-color: #ece7e100;
@@ -221,7 +221,7 @@ html {
   position: relative;
   width: 40px;
   height: 40px;
-  background-image: url("src/png//crescent-moon\ \(1\).png");
+  background-image: url('src/png//crescent-moon\ \(1\).png');
   background-size: 50%;
   transition-duration: 0.5s;
   cursor: pointer;
