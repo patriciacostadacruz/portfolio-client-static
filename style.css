@@ -620,7 +620,7 @@ noscript {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-color: #ff8503;
+  background-color: #ff7003;
   -webkit-animation: 0.9s both jello-vertical;
   animation: 0.9s both jello-vertical;
 }
