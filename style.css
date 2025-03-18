@@ -83,14 +83,11 @@ html {
   --color-gray: #c4c4c4;
   --color-orange: #ff8000;
   --color-light-orange: #ffa64d;
-  /* --color-purple: #8000ff; */
-  /* --color-light-purple: #cf59e6; */
-  --color-light-blue: #6bc5f8;
+  --color-light-yellow: #f8dc6b;
   --color-navbarBorder-dark: #e2e2e207;
   --color-shadowDark: rgba(0, 0, 0, 0.137);
-  --static-heading-gradient-blue: #b0f3f1;
-  --static-heading-gradient-orange: #ffad33;
-  /* --static-heading-gradient-orange: #ffcfdf; */
+  --static-heading-gradient-yellow-orange: #f3d7b0;
+  --static-heading-gradient-orange: #ff9633;
   --tech-stack-box-first-color: #1a1a29;
   --tech-stack-box-second-color: rgba(27, 27, 40, 0);
   --tech-stack-box-border-color: #292929;
@@ -115,7 +112,7 @@ html {
 .cursor-inner {
   width: 8px;
   height: 8px;
-  background-color: var(--color-light-blue);
+  background-color: var(--color-light-yellow);
 }
 .cursor-outer {
   width: 35px;
@@ -161,7 +158,7 @@ html {
   --color-white: #000;
   --color-ddd-color: rgb(31, 31, 31);
   --color-navbarBorder-dark: #d1d6eb;
-  --static-heading-gradient-blue: #0f7878;
+  --static-heading-gradient-yellow-orange: #fd7f09;
   --static-heading-gradient-orange: #ffa64d;
   --color-shadowDark: #e2ddd7;
   --tech-stack-box-first-color: #e7e2db;
@@ -296,9 +293,9 @@ noscript {
 .getintouch-heading article {
   background: -webkit-linear-gradient(
     135deg,
-    var(--color-light-blue),
+    var(--color-light-yellow),
     var(--color-light-orange),
-    var(--color-light-blue),
+    var(--color-light-yellow),
     var(--color-light-orange)
   );
   -webkit-text-fill-color: transparent;
@@ -586,9 +583,9 @@ noscript {
   align-items: flex-start;
   background: linear-gradient(
     -45deg,
-    var(--color-light-blue),
+    var(--color-light-yellow),
     var(--color-light-orange),
-    var(--color-light-blue),
+    var(--color-light-yellow),
     var(--color-light-orange)
   );
   background-clip: text;
@@ -623,7 +620,7 @@ noscript {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-color: #ffb803;
+  background-color: #ff8503;
   -webkit-animation: 0.9s both jello-vertical;
   animation: 0.9s both jello-vertical;
 }
@@ -737,7 +734,7 @@ noscript {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(150deg, #71cbff, #ff9100);
+  background-image: linear-gradient(150deg, #ffde71, #ff9100);
   z-index: -1;
   left: 6px;
   top: 6px;
@@ -778,12 +775,12 @@ noscript {
     linear,
     left top,
     right top,
-    var(--static-heading-gradient-blue),
+    var(--static-heading-gradient-yellow-orange),
     var(--static-heading-gradient-orange)
   );
   background-image: -webkit-linear-gradient(
     left,
-    var(--static-heading-gradient-blue),
+    var(--static-heading-gradient-yellow-orange),
     var(--static-heading-gradient-orange)
   );
 }
@@ -873,7 +870,7 @@ noscript {
   font-weight: 500;
   background-image: linear-gradient(
     90deg,
-    var(--static-heading-gradient-blue),
+    var(--static-heading-gradient-yellow-orange),
     var(--static-heading-gradient-orange)
   );
   background-clip: text;
@@ -887,7 +884,7 @@ noscript {
   height: 1px;
   background-image: linear-gradient(
     90deg,
-    var(--static-heading-gradient-blue),
+    var(--static-heading-gradient-yellow-orange),
     var(--static-heading-gradient-orange)
   );
 }
@@ -1153,7 +1150,7 @@ footer {
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: var(--color-light-blue);
+  color: var(--color-light-yellow);
 }
 .cta svg {
   top: 0;
@@ -1161,7 +1158,7 @@ footer {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: var(--color-light-blue);
+  stroke: var(--color-light-yellow);
   stroke-width: 2;
   transform: translateX(-5px);
   transition: 0.3s;
@@ -1284,9 +1281,9 @@ footer {
   font-size: 2rem;
   background: linear-gradient(
     -45deg,
-    var(--color-light-blue),
+    var(--color-light-yellow),
     var(--color-light-orange),
-    var(--color-light-blue),
+    var(--color-light-yellow),
     var(--color-light-orange)
   );
   background-clip: text;
